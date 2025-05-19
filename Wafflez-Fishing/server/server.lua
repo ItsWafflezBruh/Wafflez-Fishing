@@ -170,7 +170,7 @@ lib.callback.register('wafflez-fishing:server:getPlayerName', function (source, 
     if player then
         return player.PlayerData.charinfo.firstname .. ' ' .. player.PlayerData.charinfo.lastname
     else
-        local PlayerData = MySQL.single.await('SELECT charinfo FROM `players` WHERE citizenid = ?' {cid})
+        local PlayerData = MySQL.single.await('SELECT charinfo FROM `players` WHERE citizenid = ?', { id })
         if PlayerData and PlayerData.charinfo then
             local charinfo = json.decode(PlayerData.charinfo)
             return charinfo.firstname .. ' ' .. charinfo.lastname
