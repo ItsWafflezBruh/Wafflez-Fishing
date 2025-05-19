@@ -211,20 +211,20 @@
 ["fishing_rod1"] = { 
     label = "Level 1 rod", 
     weight = 1,
-    stack = false
+    stack = false,
     close = true
 },
 
 ["fishing_rod2"] = { 
     label = "Level 1 rod", 
     weight = 1,
-    stack = false
+    stack = false,
     close = true
 },
 
 ["fishing_rod3"] = { 
     label = "Level 1 rod", 
     weight = 1,
-    stack = false
+    stack = false,
     close = true
 },
