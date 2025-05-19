@@ -6,8 +6,8 @@ It includes a top fisher leaderboard and level progression
 Little minigame for catching fish
 
 DEPENDENCIES
-OxLib if wanted
-boii_minigames [https://github.com/boiidevelopment/boii_minigames]
+OxLib if wanted |
+boii_minigames [https://github.com/boiidevelopment/boii_minigames] |
 Ox_inventory because I'm lazy
 
 
